@@ -1,3 +1,55 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+
+}
+
+/* Eigen CSS */
+@media (max-width: 576px) 
+{
+.display-1 
+{
+    font-size: 4rem !important;
+    margin-top: -50% !important;
+}
+}
+
+.carousel-item 
+{
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  
+
 .container-fluid
 { 
     /* The image used */
@@ -70,6 +122,11 @@
     width: 45%;
 }
 
+.jaar-links-1 h1
+{
+    width: 100%;
+}
+
 .line
 {
     height: 1px;
@@ -80,7 +137,6 @@
 .line-center
 {
     width: 60%;
-    border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #f8f9fa;
     color: #f8f9fa;
