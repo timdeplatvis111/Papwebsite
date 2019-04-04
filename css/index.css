@@ -60,6 +60,16 @@
     width: 78%;
 }
 
+.kleiner
+{
+    width: 50%;
+}
+
+.kleinerer
+{
+    width: 45%;
+}
+
 .line
 {
     height: 1px;
@@ -75,11 +85,6 @@
     background-color: #f8f9fa;
     color: #f8f9fa;
     margin: 0 auto;
-}
-
-.timeline
-{
-    border-right: 2px solid #888;
 }
 
 .timeline-left
@@ -105,7 +110,20 @@
 .timeline-right
 {
     height: 100%;
-    width: 4rem;
+    width: 80%;
+}
+
+.jaar-wrapper
+{
+    height: 1500px;
+    width: 100%;
+}
+
+.jaar-links-1
+{
+    height: 25%;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .pt-6
