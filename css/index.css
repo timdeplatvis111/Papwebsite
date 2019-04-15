@@ -123,11 +123,6 @@
     background-size: cover;
 }
 
-.carousel-inner
-{
-    box-shadow: 0px 0px 0px 15px black;
-}
-
 .col-lg-6 h1
 {
     margin-top: 4.5% !important;
