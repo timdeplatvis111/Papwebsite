@@ -1,11 +1,10 @@
 .carousel-kleiner
 {
   width:100%;
-  max-height: 20em !important;
+  height: 40em;
 }
 
 .carousel-item img
 {
   max-width: 100%;
-  height: auto;
 }

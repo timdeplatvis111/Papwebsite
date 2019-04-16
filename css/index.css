@@ -26,6 +26,27 @@
     width: 100% !important;
 }
 
+.carousel-indicators
+{
+    display: none;
+}
+
+.carousel-kleiner
+{
+    height: 13em !important;
+    width: 100%;
+}
+
+.no-padding
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.carousel-caption
+{
+    bottom: 30% !important;
+}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
