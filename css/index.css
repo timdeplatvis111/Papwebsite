@@ -50,8 +50,40 @@
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) 
+@media only screen and (min-width: 768px) and (max-width: 992px) 
 {
+.carousel-caption
+{
+    bottom: 20% !important;
+}
+
+.no-border-mobile *
+{
+    border-width: 0px !important;
+}
+
+.img-container
+{
+    width: 100% !important;
+}
+
+.carousel-indicators
+{
+    display: none;
+}
+
+.carousel-kleiner
+{
+    height: 25em !important;
+    width: 100%;
+}
+
+.no-padding
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 
 } 
 
@@ -294,4 +326,3 @@
 {
     padding-top: 6rem !important;
 }
-
